@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Tech. Newsletter Signup</title>
+    <link rel="stylesheet" type="text/css" href="css&js/Signupformstyles.css">
+    <script src="css&js/validation.js" defer></script>
+</head>
+
+<body id="newsletterSignupPage" style="background: url('images/background.jpg') center fixed; background-size: cover;">
+
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Naman Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-label="Home"><img src="images/icons/home.png" alt="Home Icon" class="nav-icon"> HOME</a></li>
+                <li><a href="narora_A2_about.html" aria-label="About"><img src="images/icons/info.png" alt="About me" class="nav-icon"> ABOUT</a></li>
+                <li><a href="narora_A2_resume.html" aria-label="Resume"><img src="images/icons/resume.png" alt="Resume" class="nav-icon"> RESUME</a></li>
+                <li><a href="narora_A2_web_skills.html" aria-label="Web Skills"><img src="images/icons/app-development.png" alt="Webskills" class="nav-icon"> WEB SKILLS</a></li>
+                <li><a href="DigitalMarketingSkills_1.html" aria-label="Digital marketing Skills"><img src="images/icons/social-media.png" alt="social media" class="nav-icon"> DIGITAL MARKETING SKILLS</a></li>
+                <li><a href="tourplanning.html" aria-label="TOUR PLANNING"><img src="images/icons/plan.png" alt="Tour plan" class="nav-icon"> TOUR PLANNING</a></li>
+                <li><a href="CustomerService_ManagementSkill.html" aria-label="CUSTOMER SERVICE"><img src="images/icons/support.png" alt="customer service" class="nav-icon"> CUSTOMER SERVICE</a></li>
+                <li><a href="javascript.html?welcome=true" aria-label="Newsletter SignUP" id="newsletterSignup"><img src="images/icons/signup.png" alt="Newsletter SignUP" class="nav-icon"> Newsletter Signup</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-wrapper">
+            <div class="text-content-1">
+                <h1>Newsletter Signup</h1>
+                <form id="signupForm" action="index.html" method="POST" target="_blank">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" maxlength="60" required>
+                        <br>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" maxlength="60" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" maxlength="60" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Age Group</legend>
+                        <label>
+                            <input type="radio" name="ageGroup" value="15-25" required> 15-25
+                        </label>
+                        <label>
+                            <input type="radio" name="ageGroup" value="26-35"> 26-35
+                        </label>
+                        <label>
+                            <input type="radio" name="ageGroup" value="36-45"> 36-45
+                        </label>
+                        <label>
+                            <input type="radio" name="ageGroup" value="46-55"> 46-55
+                        </label>
+                        <label>
+                            <input type="radio" name="ageGroup" value="55+"> 55+
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Services Interested In</legend>
+                        <label>
+                            <input type="checkbox" name="services" value="Guided Tours"> Guided Tours
+                        </label>
+                        <label>
+                            <input type="checkbox" name="services" value="Travel Insurance"> Travel Insurance
+                        </label>
+                        <label>
+                            <input type="checkbox" name="services" value="Flight Bookings"> Flight Bookings
+                        </label>
+                        <label>
+                            <input type="checkbox" name="services" value="Hotel Reservations"> Hotel Reservations
+                        </label>
+                        <label>
+                            <input type="checkbox" name="services" value="Car Rentals"> Car Rentals
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <label for="additionalInfo">Additional Information:</label>
+                        <textarea id="additionalInfo" name="additionalInfo" cols="60" rows="3"></textarea>
+                    </fieldset>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+
+        
+        </div>
+
+        
+    </main>
+
+    <footer>
+        <p>Contact me at: <a href="mailto:namanarora123@gmail.com">namanarora123@gmail.com</a></p>
+        <p>&copy; 2024 Naman Arora. All rights reserved. I have permission to use or am the copyright holder of all content on this site.</p>
+    </footer>
+
+</body>
+
+</html>
